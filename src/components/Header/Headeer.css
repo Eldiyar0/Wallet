@@ -1,0 +1,40 @@
+#header {
+  margin-top: 25px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container {
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+}
+.header .cash h1 {
+  font-size: 25px;
+  color: darkblue;
+}
+.header a {
+  text-decoration: none;
+  font-size: 25px;
+  color: darkblue;
+}
+.header .links {
+  margin-left: 750px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.line {
+  margin-top: 25px;
+}
+.cash {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.cash .money {
+  font-size: 25px;
+  color: orange;
+}
